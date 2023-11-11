@@ -29,8 +29,12 @@ Italian Software Engineer, Contact me at [francescodero@outlook.it](mailto:franc
 </a>
 
 ### Database Management Systems & Tools
+<a href="https://www.gnu.org/software/bash/">
+    <!-- BASH: the default linux shell -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Bash_Logo_Colored.svg" alt="bash" width="100" height="100"/>
+</a>
 <a href="https://git-scm.com/">
-    <!-- POSTGRESQL: an open source relational database whose popularity is increasingly growing -->
+    <!-- GIT: a version control system, widely used for tracking changes in source code during software development -->
     <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="100" height="100"/>
 </a>
 <a href="https://www.postgresql.org/">
@@ -44,8 +48,4 @@ Italian Software Engineer, Contact me at [francescodero@outlook.it](mailto:franc
 <a href="https://redis.io">
     <!-- REDIS: a non persistend, in-memory database often used to store cache or session information -->
     <img src="https://www.svgrepo.com/show/303460/redis-logo.svg" alt="redis" width="100" height="100"/> 
-</a>
-<a href="https://www.gnu.org/software/bash/">
-    <!-- BASH: the default linux shell -->
-    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Bash_Logo_Colored.svg" alt="bash" width="100" height="100"/>
 </a>
