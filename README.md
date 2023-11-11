@@ -2,7 +2,7 @@
 Italian Software Engineer, Contact me at [francescodero@outlook.it](mailto:francescodero@outlook.it)
 
 
-### Languages and Frameworks
+### Languages & Frameworks
 <a href="https://en.wikipedia.org/wiki/C%2B%2B">
     <!-- C++: a very versatile programming language capable of delivering really good performance without sacrificing high-level concepts and constructs -->
     <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" alt="C++" width="100" height="100">
