@@ -1,5 +1,8 @@
 # Francesco De Rosa
-Italian Software Engineer, Contact me at [francescodero@outlook.it](mailto:francescodero@outlook.it)
+Italian Software Engineer, Contact me at [francescodero@outlook.it](mailto:francescodero@outlook.it) 
+
+
+Check out my [github gists](https://gist.github.com/fDero/)
 
 
 ### Languages & Frameworks
