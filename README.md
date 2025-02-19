@@ -14,9 +14,9 @@ Check out my [github gists](https://gist.github.com/fDero/)
     <!-- JAVA: a widely-used, object-oriented programming language, used for building enterprise-level applications and Android mobile apps-->
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="100" height="100"/>
 </a>
-<a href="https://react.dev/">
-    <!-- REACT: a web framework for building user interfaces, known for its component-based architecture and efficient rendering -->
-    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="react" width="100" height="100"/>
+<a href="https://go.dev/">
+    <!-- GO (GOLANG):  -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Go_Logo_Blue.svg" alt="react" height="75"/>
 </a>
 <a href="https://www.python.org">
     <!-- PYTHON: a versatile, interpreted language known for its readability and ease of use -->
@@ -31,7 +31,7 @@ Check out my [github gists](https://gist.github.com/fDero/)
     <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="100" height="100">
 </a>
 
-### Database Management Systems & Tools
+### Databases & Tools
 <a href="https://www.gnu.org/software/bash/">
     <!-- BASH: the default linux shell -->
     <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Bash_Logo_Colored.svg" alt="bash" width="100" height="100"/>
