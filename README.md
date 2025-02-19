@@ -15,7 +15,7 @@ Check out my [github gists](https://gist.github.com/fDero/)
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="100" height="100"/>
 </a>
 <a href="https://go.dev/">
-    <!-- GO (GOLANG):  -->
+    <!-- GO (GOLANG): An open-source programming language supported by Google -->
     <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Go_Logo_Blue.svg" alt="react" height="80"/>
 </a>
 <a href="https://www.python.org">
