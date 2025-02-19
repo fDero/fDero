@@ -16,7 +16,7 @@ Check out my [github gists](https://gist.github.com/fDero/)
 </a>
 <a href="https://go.dev/">
     <!-- GO (GOLANG):  -->
-    <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Go_Logo_Blue.svg" alt="react" height="75"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Go_Logo_Blue.svg" alt="react" height="80"/>
 </a>
 <a href="https://www.python.org">
     <!-- PYTHON: a versatile, interpreted language known for its readability and ease of use -->
