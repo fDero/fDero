@@ -1,0 +1,55 @@
+\newcommand{\squigarr}{
+    {\Large \color{blue}$\rightsquigarrow$}
+}
+
+\newcommand*\Hs{
+    \ensuremath{
+        \color{red}\varheartsuit
+    }
+}
+
+
+\textheight=700px
+\frenchspacing
+\pagestyle{empty}
+
+
+\sectionfont{
+	\usefont{OT1}{phv}{b}{n}
+	\sectionrule{0pt}{0pt}{-5pt}{3pt}
+}
+
+\newlength{\spacebox}
+\settowidth{\spacebox}{8888888888}
+\newcommand{\sepspace}{\vspace*{0.5em}}
+
+\newcommand{\MyName}[1]{
+		\Huge \usefont{OT1}{phv}{b}{n} \hfill #1
+		\par \normalsize \normalfont}
+		
+\newcommand{\MySlogan}[1]{
+		\large \usefont{OT1}{phv}{m}{n}\hfill \textit{#1}
+		\par \normalsize \normalfont}
+		    
+\newcommand{\NameEmailPhoneSiteGithub}[4]{
+        \Huge \usefont{OT1}{phv}{m}{n} \textbf{#1} 
+        \large \usefont{OT1}{phv}{m}{n} \hfill #2
+        
+        \textit{Backend software engineer}\hfill \hspace{25pt} #3 
+
+        \hfill \hspace{25pt} #4 
+        \par \normalsize \normalfont
+}
+
+\newcommand{\NewPart}[1]{
+    \section*{\uppercase{#1}}
+}
+
+\newcommand{\SkillsEntry}[2]{
+    \noindent\hangindent=2em\hangafter=0
+    \parbox{\spacebox}{\textit{#1}}
+    \hspace{1.5em} #2 \par
+}	
+		
+
+

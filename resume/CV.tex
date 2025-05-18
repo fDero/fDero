@@ -1,0 +1,199 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Resume: Francesco De Rosa
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[paper=a4,fontsize=11pt]{scrartcl}
+
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[protrusion=true,expansion=true]{microtype}
+\usepackage{amsmath,amsfonts,amsthm}
+\usepackage{graphicx}
+\usepackage[svgnames]{xcolor}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{url}
+\usepackage{sectsty}
+\usepackage{tikz}
+\usepackage{kpfonts}
+\usepackage{color}
+\usepackage[colorlinks=true,urlcolor=purple]{hyperref}
+\usepackage[fixed]{fontawesome5}
+\usepackage{subfiles}
+
+\newcommand{\squigarr}{
+    {\Large \color{blue}$\rightsquigarrow$}
+}
+
+
+\newcommand{\cpp}{
+    {\Large \raisebox{-0.1em}{\includegraphics[width=0.7em]{cpp.png}}}
+}
+
+\newcommand{\java}{
+    {\Large \raisebox{-0.1em}{\includegraphics[width=0.9em]{java.png}}}
+}
+
+\newcommand*\Hs{
+    \ensuremath{
+        \color{red}\varheartsuit
+    }
+}
+
+
+\textheight=700px
+\frenchspacing
+\pagestyle{empty}
+
+
+\sectionfont{
+	\usefont{OT1}{phv}{b}{n}
+	\sectionrule{0pt}{0pt}{-5pt}{3pt}
+}
+
+\newlength{\spacebox}
+\settowidth{\spacebox}{8888888888}
+\newcommand{\sepspace}{\vspace*{0.5em}}
+
+\newcommand{\MyName}[1]{
+		\Huge \usefont{OT1}{phv}{b}{n} \hfill #1
+		\par \normalsize \normalfont}
+		
+\newcommand{\MySlogan}[1]{
+		\large \usefont{OT1}{phv}{m}{n}\hfill \textit{#1}
+		\par \normalsize \normalfont}
+		    
+\newcommand{\NameEmailPhoneSiteGithub}[4]{
+        \Huge \usefont{OT1}{phv}{m}{n} \textbf{#1} 
+        \large \usefont{OT1}{phv}{m}{n}             \hfill #2
+        
+        \textit{Backend software engineer}          \hfill \hspace{25pt} #3 
+
+                                                    \hfill \hspace{25pt} #4 
+        \par \normalsize \normalfont
+}
+
+\newcommand{\NewPart}[1]{
+    \section*{\uppercase{#1}}
+}
+
+\newcommand{\SkillsEntry}[2]{
+    \noindent\hangindent=2em\hangafter=0
+    \parbox{\spacebox}{\textit{#1}}
+    \hspace{1.5em} #2 \par
+}	
+
+\begin{document}
+
+
+\NameEmailPhoneSiteGithub
+    {Francesco De Rosa}
+    {(+39) 340 077 17 33}
+    {francescodero@outlook.it}
+    {\href{https://www.github.com/fDero}{github.com/fDero}}
+\sepspace
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Section: Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\NewPart{Education}{}
+    \begin{itemize}
+        \item[\faGraduationCap] 
+            \textbf{University:} Bachelor's degree in 
+            \textit{Computer Science} at 
+            the University of Naples Federico ll obtained in March 2025, with a grade of 110+/110 (graduated with honors).
+            
+        \item[\faBook] 
+            \textbf{High school:} Got my high school 
+            diploma in 2021 at Liceo Scientifico 
+            Statale "Elio Vittorini" in Naples.
+    \end{itemize}
+\sepspace
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Section: Projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\NewPart{Projects}{}
+\begin{itemize}
+    \item[\cpp] 
+        \textbf{Basalt:} A compiler for 
+        my own low-level type-safe programming 
+        language with full support for generics, 
+        type-inference and pseudo-polymorphism. The 
+        compiler uses LLVM as a backend to generate 
+        machine code for most modern architectures, 
+        generating object files compatible with most 
+        modern linkers.
+
+    \item[\squigarr] 
+        From this project I learned how to 
+        manage complexity in a large codebase
+        and how to design for maintainability
+        in the long run. I also learned how to
+        manage tasks and deadlines in a large
+        project and how to respond to unforeseen 
+        difficulties.
+
+    \item[\faPython] 
+        \textbf{IssuuDownloader:} A command-line utility 
+        to download PDFs from Issuu.com in bulk. It 
+        uses multiple threads to download files in
+        parallel and it can be used to download
+        entire collections of documents in one go. It 
+        is also able to resume downloads from where
+        they left off using a cache file.
+
+    \item[\squigarr] 
+        From this project I learned how to 
+        understand and reverse-engineer network
+        protocols and non-documented APIs. I also 
+        learned how to use threads in python and how 
+        to take advantage of parallelism to speed up
+        I/O-bound tasks.
+
+    \item[\faPython] 
+        \textbf{BackproPy:} A simple and beginner-friendly
+        explanatory implementation of the back-propagation
+        algorithm for neural networks in Python. It takes 
+        inspiration from "minigrad" by Andrej
+        Karpathy and it is designed to improve it by making 
+        it less error-prone and more readable. 
+
+    \item[\squigarr] 
+        From this project I learned how 
+        the back-propagation algorithm works and how to
+        use it to train simple neural-networks.
+
+    \item[\java] 
+        \textbf{Bits4j + JCompress:} My own library for bit-manipulation in Java21 and 
+        a simple file compressor/decompressor that uses such library. 
+
+    \item[\squigarr] 
+        From this project I learned how to upload 
+        artifacts to Maven Central and how to document 
+        my code using javadoc to make it more accessible
+        to other developers.
+
+\end{itemize}
+\sepspace
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Section: Skills
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\NewPart{Skills}{}
+\begin{itemize}
+    \item[\faCode]
+        \textbf{Languages:} C, C++, Java, Python, Go (golang)
+    \item[\faTools]
+        \textbf{Tools:} Git, Docker, Docker-compose  
+    \item[\faDatabase]
+        \textbf{Database:} Redis, PostgreSQL, GraphQL 
+
+\end{itemize}
+\sepspace
+
+
+\end{document}
