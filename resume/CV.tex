@@ -16,7 +16,7 @@
 \usepackage{tikz}
 \usepackage{kpfonts}
 \usepackage{color}
-\usepackage[colorlinks=true,urlcolor=purple]{hyperref}
+\usepackage[colorlinks=true,urlcolor=blue]{hyperref}
 \usepackage[fixed]{fontawesome5}
 \usepackage{subfiles}
 
@@ -30,6 +30,22 @@
 
 \newcommand{\java}{
     {\Large \raisebox{-0.1em}{\includegraphics[width=0.9em]{../assets/java-bw.png}}}
+}
+
+\newcommand{\reply}{
+    {\Large \raisebox{-0.2em}{\includegraphics[width=0.9em]{../assets/reply-logo.png}}}
+}
+
+\newcommand{\elixir}{
+    {\Large \raisebox{-0.2em}{\includegraphics[width=0.9em]{../assets/elixir.png}}}
+}
+
+\newcommand{\oracle}{
+    {\Large \raisebox{-0.1em}{\includegraphics[width=0.9em]{../assets/oracle.png}}}
+}
+
+\newcommand{\azure}{
+    {\Large \raisebox{-0.3em}{\includegraphics[width=0.9em]{../assets/azure.png}}}
 }
 
 \newcommand*\Hs{
@@ -110,12 +126,58 @@
 \sepspace
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Section: Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\NewPart{Experience}{}
+\begin{itemize}
+        \item[\reply] 
+            \textbf{Cloud9 Reply:} Tech IT consulting specialized in 
+            multicloud solutions, where I worked since June 2025. 
+            
+            My role mainly consists in developing and maintaining C\# tools
+            we use internally to handle database migrations and operations.
+            I also worked on creating a custom web-portal that helps in 
+            provisioning cloud, kubernetes and third-party resources 
+            necessary to bootstrap new microservices projects.
+    \end{itemize}
+\sepspace
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Section: Skills
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\NewPart{Skills}{}
+\begin{itemize}
+    \item[\faCode]
+        \textbf{Languages:} C, C++, C\#, Elixir, Java, Kotlin, Python, Go (golang)
+    \item[\faTools]
+        \textbf{Tools:} Git, Docker, Kubernetes, PostgreSQL, Redis, MongoDB
+    
+
+\end{itemize}
+\sepspace
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Section: Projects
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \NewPart{Projects}{}
 \begin{itemize}
+    \item[\elixir] 
+        \textbf{MicroChess:} Backend for a chess webapp 
+        written with microservices architecture. While currently
+        under development, the microservice that handles live 
+        1v1 games in real-time is already fully functional and is 
+        fully written in Elixir. Other parts of the system are/will
+        be written in Node and Kotlin.
+
+    \item[\squigarr] 
+        This project taught me how to leverage the actor model and OTP to
+        handle live real-time IO via web sockets efficiently and scalably. 
+        I also learned how to design a microservices architecture and how to 
+        integrate Elixir with the kubernetes ecosystem.
+
     \item[\cpp] 
         \textbf{Basalt:} A compiler for 
         my own low-level type-safe programming 
@@ -135,67 +197,23 @@
         project and how to respond to unforeseen 
         difficulties.
 
-    \item[\java] 
-        \textbf{DietiDeals24:} A dummy e-commerce webapp with Java Spring Boot backend, 
-        with JWT-based authentication, Redis integration for caching and session management,
-        and a PostgreSQL database for storing products and orders. Developed locally with 
-        Docker-compose and released on AWS and integrated with Google OAuth 2.0. It also supports 
-        OpenAPI (Swagger) for self documentation.
-
-    \item[\squigarr] 
-        From this project I learned how to work with the cloud, and most importantly how 
-        REST APIs work, how the codebase lifecycle of a web-based backend works and how 
-        to use state of the art tools and technologies to build modern and scalable backends.
-
-    \item[\faPython] 
-        \textbf{IssuuDownloader:} A command-line utility 
-        to download PDFs from Issuu.com in bulk. It 
-        uses multiple threads to download files in
-        parallel and it can be used to download
-        entire collections of documents in one go. It 
-        is also able to resume downloads from where
-        they left off using a cache file.
-
-    \item[\squigarr] 
-        From this project I learned how to 
-        understand and reverse-engineer network
-        protocols and non-documented APIs. I also 
-        learned how to use threads in python and how 
-        to take advantage of parallelism to speed up
-        I/O-bound tasks.
-
-    \item[\faPython] 
-        \textbf{BackproPy:} A simple and beginner-friendly
-        explanatory implementation of the back-propagation
-        algorithm for neural networks in Python. It takes 
-        inspiration from "minigrad" by Andrej
-        Karpathy and it is designed to improve it by making 
-        it less error-prone and more readable. 
-
-    \item[\squigarr] 
-        From this project I learned how 
-        the back-propagation algorithm works and how to
-        use it to train simple neural networks.
-
 \end{itemize}
 \sepspace
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Section: Skills
+% Section: Certifications
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\NewPart{Skills}{}
+\NewPart{Certifications}{}
 \begin{itemize}
-    \item[\faCode]
-        \textbf{Languages:} C, C++, Java, Python, Go (golang)
-    \item[\faTools]
-        \textbf{Tools:} Git, Docker, Docker-compose, Redis, PostgreSQL  
-    
-    %\item[\faDatabase]
-    %    \textbf{Database:} Redis, PostgreSQL, GraphQL 
+    \item[\azure] 
+        \textbf{Microsoft Azure Fundamentals AZ900:} Obtained in October 2025. 
+        {\href{https://learn.microsoft.com/it-it/users/francescoderosa-8967/credentials/84910fd82024eda4?ref=https%3A%2F%2Fwww.linkedin.com%2F}{(click here)}}
 
+    \item[\oracle] 
+        \textbf{Oracle OCI Foundations Associate:} Obtained in July 2025. 
+        {\href{https://catalog-education.oracle.com/ords/certview/sharebadge?id=2C60D3ADFC553DF4C6BA50B802EE3F40B4F03676EB13F1078547ED292AED9B33}{(click here)}}
 \end{itemize}
 \sepspace
-
 
 \end{document}
